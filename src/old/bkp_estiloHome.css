@@ -1,0 +1,220 @@
+.logo {
+    display: inline-block;
+    height: 100px;
+    padding: 10px;
+}
+
+.logo img {
+    height: 100%;
+}
+
+/* Mantem o Me contrate dentro do menu */
+.menu {
+    display: inline-block;
+    vertical-align: top;
+    height: 80px;
+    padding: 15px;
+}
+
+.menu ul {
+    margin: 0;
+    padding: 0;
+}
+
+.sectionFundo {
+    /* background-image: linear-gradient(45deg, #FFE468, #272630); */
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: #f0eeee;;
+}
+
+.container-form {
+    width: 100%;
+    min-height: 30vh;
+    display: -webkit-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    padding: 15px;
+    background: #f0eeee;
+  
+}
+
+.button {
+    padding: 15px;
+    align-items: center;
+
+}
+
+.button-1 {
+    padding: 0px;
+    height: 60px;
+    width: 150px;           
+  
+}
+
+.button-2 {
+    box-shadow: 10px 5px 5px #272630;      
+         
+  
+}
+
+
+h4 {
+    color: black;
+    margin-top: 1em;
+    padding: 15px;
+    font-weight: bold;
+    background-color: rgb(#FFE468, #ffffff, #272630)
+    
+}
+
+label {
+    color: black;
+    margin: 0em;
+    padding: 3px;
+    /*font-weight: bold;*/
+    text-align: left;
+}
+
+#labelCenter{
+    margin: 2em;
+    padding: 3px;
+    text-align: center;
+}
+
+input, select, textarea {
+    background: transparent;
+    
+   
+   
+}
+
+.form-select {
+    /*box-shadow: 10px 5px 5px #272630;*/
+    
+    
+}
+
+.form-label {
+    
+}
+
+fieldset {
+    width: 100%;
+}
+
+#pictureInput{
+    display: none;
+}
+
+.picture{
+    width: 140px;
+    height: 170px;
+    border-radius:7%;
+    /*background-color: #ffc107;*/
+    background-color:rgb(240, 172, 46);
+    display: block center;
+    align-items: center;
+    justify-content: center;
+    color: rgb(240, 172, 46);
+    border: solid 0ch rgb(54, 143, 80);
+    cursor: pointer;
+    transition: color 300ms ease-in-out, background 300ms ease-in-out;
+    outline: none;
+    overflow: hidden;
+    padding: 15px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+    text-align:center;
+     
+}
+.picture:hover{
+    color: #FFE966;
+    background: #272630;
+}
+.picture:active{
+    border-color: burlywood;
+    color: burlywood;
+    background: #eee;
+}
+.picture:focus{
+    color: #777;
+    background: #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0, 0.4);
+}
+.pictureImg{
+    max-width: 100%;
+}
+
+.alinhaAoLado {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.alinhaTitulo {
+    display: flex;
+    align-items: center;
+    justify-content:first baseline;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+
+}
+
+.alinharBtn {
+    display: flex;
+    justify-content:center;
+    margin-bottom: 3rem;    
+    margin-top: 3rem;
+
+}
+
+.al-1 {
+    display:flex;
+    justify-content:center;
+    text-align:center;  
+}
+
+.al-input {
+    display:flex;
+    justify-content:center;
+    text-align:center;  
+}
+
+.al-btn {
+    margin: 10px;
+    margin-top: 4rem;
+    width: 15rem;
+}
+
+.div-consulta {
+    width: 1000px;
+    height: 800px;
+    border: #cab452e3 solid 2px;
+    background-color: #f8e28141;
+    border-radius: 3%;
+       
+  }
+
+.mold-1 {
+
+    /*border: solid rgb(236, 234, 234) 3px;*/
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    border-radius: 1%;
+    /*background-color: #f0eeee;*/
+    background-color:#faeeaa;
+    padding: 2rem;
+    margin-top: 3rem;
+    margin-left: 7rem;
+    margin-right: 7rem;
+    margin-bottom: 4rem;
+}
+
+.cor-input {
+
+    background-color: transparent;
+}
+
+
